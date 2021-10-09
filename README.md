@@ -145,7 +145,10 @@ Now in the parenthesis start to type the parameter `fa_center` and then auto-com
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Add a comment to explain what this does on top of the function (your comment does not have to be the same as mine, as long as it makes sense to you and/or your team).  It should look like:
+
+
+![Add another comment to what you just typed](images/CenterHalign.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
