@@ -154,7 +154,9 @@ Add a comment to explain what this does on top of the function (your comment doe
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+This does not affect the alignment for this one object.  The draw event is global and it will change the alignmnet for all other objects in this level. Now at the end lets return back to the default.  Otherwise it is possible that this will affect the horizontal alignment of other future objects.  So set the horizontal alignment back to `fa_left`.
+
+![reset alignment at end to left](images/ReturnToFALeft.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
