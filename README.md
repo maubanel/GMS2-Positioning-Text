@@ -88,7 +88,7 @@ In our case we will be calling a function named **[draw_text](https://manual.yoy
 		
 We will use the **x** and **y**  position of the object in the room.  There are two built in variables in each game object and this is its x,y position in room space.  So type in **obj_hello_world_text: Draw**
 
-![alt_text](images/.png)
+![alt_text](images/DrawHelloWorldHardCoded.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
