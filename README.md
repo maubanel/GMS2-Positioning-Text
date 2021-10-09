@@ -88,13 +88,15 @@ In our case we will be calling a function named **[draw_text](https://manual.yoy
 		
 We will use the **x** and **y**  position of the object in the room.  There are two built in variables in each game object and this is its x,y position in room space.  So type in **obj_hello_world_text: Draw** event:
 
-![alt_text](images/DrawHelloWorldHardCoded.png)
+![add draw_text code to game](images/DrawHelloWorldHardCoded.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/DrawHelloWorldHardCoded.png)
+The above should draw the text "Hello World" (without quotation marks) in the room.  But first we need to drag this game object in the room so it knows to run this game object in this level we previously named. So we double <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_LMB.png"> left click on the rm_hello_world to go back (or reopen) the room.  Adjust the zoom so you can see the entire room as we want to drag the game object in the center.  Make sure the <tt><b>Layers</b></tt> tab in open in the <b>Room Editor</b> and that you highlight <tt><b>Instances</b></tt> layer.  You can only add game objects onto an instance layer (you can have more than one layer of course).  Then drag and drop a single instance of <tt><b>obj_hello_world_text</b></tt> into the main game window in as close to the center as you can make it:
+
+![alt_text](images/PlaceHelloWorldObjectInRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
