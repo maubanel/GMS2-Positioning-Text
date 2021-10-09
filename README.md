@@ -135,7 +135,7 @@ What if we wanted to center the text on the screen?  We can call another functio
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-You will notice that the engine starts to give you possible suggestions in the auto-complete.  If you type enough it will narrow it down to its one built in function.  You don't need to continue typing.  If it is highlighted you can just press the <kbd>Enter<kbd> or <kbd>Tab</kbd> to fill in the rest for you. The advantage is not only speed but it prevents spelling errors which causes the game to not compile or run.
+You will notice that the engine starts to give you possible suggestions in the auto-complete.  If you type enough it will narrow it down to its one built in function.  You don't need to continue typing.  If it is highlighted you can just press the <kbd>Enter</kbd> or <kbd>Tab</kbd> to fill in the rest for you. The advantage is not only speed but it prevents spelling errors which causes the game to not compile or run.
 
 Now in the parenthesis start to type the parameter `fa_center` and then auto-complete.
 
