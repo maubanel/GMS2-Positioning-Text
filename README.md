@@ -57,9 +57,14 @@ In this case we do not have any art to attach to the sprite so we will need to d
 
 This brings up a scripting tab (notice the green lines connect the related tabs together so you don't get confused).  This is where we add scripting for game logic.  The very first thing we are going to start with is add comments.  When you are starting out this is usually the part that is counter-intuitive.  When we write an essay we usually don't add comments to describe what we are writing.  
 		
-With game logic it is important to document what we are doing as if we come back to it in a few weeks, we will have forgot what we have done.  It is better to err on too many and verbose a comment than none at all.  It will not affect the performance of the game and the player will never end up seeing them (they will not get compiled into the playable build). Comments are not interpreted by the computer and don't turn into logic.  They are human readable and are for the development team.  If you have two forward slashes at the begining of any line it turns that entire line of text into a comment and in GameMaker's default settings turns green.
+With game logic it is important to document what we are doing as if we come back to it in a few weeks, we will have forgot what we have done.  It is better to err on too many and verbose a comment than none at all.  It will not affect the performance of the game and the player will never end up seeing them (they will not get compiled into the playable build). Comments are not interpreted by the computer and don't turn into logic.  They are human readable and are for the development team.  
+
+If you have two forward slashes `//` everything that follows on that line is a comment and in GameMaker's default settings turns green. This is for human reading and does not affect the game at all.  You can add as much as you will like.
 		
-We added the comments.
+I added:
+
+`/// @Draws Hello World On Screen
+// Draw Hello World`
 
 ![alt_text](images/CommentsOnDrawEvent.png)
 
