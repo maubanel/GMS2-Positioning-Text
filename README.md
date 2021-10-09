@@ -96,13 +96,15 @@ We will use the **x** and **y**  position of the object in the room.  There are 
 
 The above should draw the text "Hello World" (without quotation marks) in the room.  But first we need to drag this game object in the room so it knows to run this game object in this level we previously named. So we *double left click* on the **rm_hello_world** to go back (or reopen) the room.  *Adjust* the zoom so you can see the entire room as we want to *drag* the game object in the center.  Make sure the **Layers** tab in open in the **Room Editor** and that you highlight **Instances** layer.  You can only add game objects onto an instance layer (you can have more than one layer of course).  Then drag and drop a single instance of **obj_hello_world_text** into the main game window in as close to the center as you can make it:
 
-![alt_text](images/PlaceHelloWorldObjectInRoom.png)
+![add obj_hello_world_text to room](images/PlaceHelloWorldObjectInRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+I eyeballed the center of the room.  What if I want it to be in the exact center of the room.  How do I go about doing this?  I can *double left click* on the **icon** in the middle of the room which will bring up an **Instance** window of this game object.  I can look at the **Properties | Room Settings | Width & Height** to see the pixel dimensions of the room.  In my case it defaults to `1024` by `768`.  The center would be these two values divided by 2.  So if your instance window does not show **x** as `512` and **y** as `384`, make the change to them in the editor window now so that the object is dead center.
+
+![center object in room](images/CenterOfRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
