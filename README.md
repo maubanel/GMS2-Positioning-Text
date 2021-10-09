@@ -86,7 +86,7 @@ A function is a name followed by a set of parentheses.  Inside the parenthesis a
 
 In our case we will be calling a function named **[draw_text](https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FDrawing%2FText%2Fdraw_text.htm&rhsearch=draw_text&rhhlterm=draw_text)**. This takes three arguments.  It takes an **x** position in the room, a **y** position in the room and a **string** (a group of letters, numbers and symbols). Lets now call this function.  For the **x** and **y** argument we will not pass it numbers.  Please note that if you look at the help menu that this function does not return any value (the manual says it returns **NA** - not applicable).
 		
-We will use the **x** and **y**  position of the object in the room.  There are two built in variables in each game object and this is its x,y position in room space.  So type in **obj_hello_world_text: Draw**
+We will use the **x** and **y**  position of the object in the room.  There are two built in variables in each game object and this is its x,y position in room space.  So type in **obj_hello_world_text: Draw** event:
 
 ![alt_text](images/DrawHelloWorldHardCoded.png)
 
