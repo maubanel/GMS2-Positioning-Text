@@ -110,7 +110,9 @@ I eyeballed the center of the room.  What if I want it to be in the exact center
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we are ready to run the game for the first time.  I know this is not impressive but this is the least we need to have something in a game.  We need a room and a game object with some logic.  Press the <kbd>Play</kbd> button in the top menu bar to launch the game.  It should look like this:
+
+![Game Running Hello World](images/HelloWorldGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
