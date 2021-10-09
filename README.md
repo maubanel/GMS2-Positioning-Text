@@ -118,7 +118,9 @@ Now we are ready to run the game for the first time.  I know this is not impress
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Notice that the text is left justified.  It starts writing from the center going towards the right hand side.
+
+![Showing center of room in running hello world](images/HelloWorldGameOffCenter.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
