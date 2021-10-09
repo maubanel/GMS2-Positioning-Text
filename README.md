@@ -63,8 +63,8 @@ If you have two forward slashes `//` everything that follows on that line is a c
 		
 I added:
 
-`/// @Draws Hello World On Screen
-// Draw Hello World`
+```/// @Draws Hello World On Screen
+// Draw Hello World```
 
 ![alt_text](images/CommentsOnDrawEvent.png)
 
