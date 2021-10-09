@@ -126,7 +126,9 @@ Notice that the text is left justified.  It starts writing from the center going
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+What if we wanted to center the text on the screen?  We can call another function to adjust how the text is aligned horizontally.  It is conveniently called **[draw_set_halign(halign)](https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FDrawing%2FText%2Fdraw_get_halign.htm&rhsearch=draw_set_align&rhhlterm=draw_set_align)**. This function again does not return anything, it just sets the horizontal alignment.  What is the argument `halign`?  This is not a number and is not a string.  It is an **[enumerator](https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Overview%2FData_Types.htm&rhsearch=enumerator&rhhlterm=enumerator)** (will get into detail in another tutorial) that lists the types of alignment in english.  The enumerator we want is called `fa_center`.  Go back to the script window in **obj_hello_world_text: Draw** and on the very top (above the `draw_text(string)` function just start to type 1draw_set_halign1.
+
+![Type draw_set_halign in draw event auto-complete](images/AutoCompleteDrawSetHalign.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
