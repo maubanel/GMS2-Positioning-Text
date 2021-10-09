@@ -74,23 +74,19 @@ I added:
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-To draw text to a screen we need to call a <b><a href="gms2tutorials:///ShowHelp?tag=functions">Function</a></b>.  What is a function?  It is a way of allowing us to do a similar task over and over again without retyping all the code again.  If you are copying and pasting the same blocks of code to use in multiple places, you should consider turning it into a function.  
+To draw text to a screen we need to call a [Function](https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Overview%2FRuntime_Functions.htm&rhsearch=function&rhhlterm=function).  What is a function?  It is a way of allowing us to do a similar task over and over again without retyping all the code again.  If you are copying and pasting the same blocks of code to use in multiple places, you should consider turning it into a function.  
 
-	<p>
-		Think of the function as a factory.  That factory can receive input and it can output one thing for you.  For example we might have a function called <b><tt>average(num, num, num ...)</tt></b>.  This calles a function named <b>average</b> and will send it multiple numbers.  Lets look at this in Pseudo Code:
+Think of the function as a factory.  That factory can receive input and it can output one thing for you.  For example we might have a function called `average(num, num, num ...)`.  This calls a function named **average** and will send it multiple numbers (the numbers passed in parenthesis).  Lets look at this in Pseudo Code:
 
-	<p class="code">
-		average(3, 8, 10);
-	
+```
+average(3, 8, 10);
+```
 
-	<p>
-		A function is a name followed by a set of parentheses.  Inside the parenthesis are <b>Parameters</b> that are passed to the function.  These are comma separated (spaces don't matter here).  In this case we are passing three number parameters to this function. This function would return the average of these three numbers (the equivalend of (3 + 8 + 10) / 3) which is 7.
+A function is a name followed by a set of parentheses.  Inside the parenthesis are **Parameters** that are passed to the function.  These are comma separated (spaces don't matter here).  In this case we are passing three number parameters to this function. This function would return the average of these three numbers (the equivalend of (3 + 8 + 10) / 3) which is 7.
 
-	<p>
-		In our case we will be calling a function named <b><a href="gms2tutorials:///ShowHelp?tag=draw_text"><tt>draw_text</tt></a></b>. This takes three arguments.  It takes an <tt><b>x</b></tt> position in the room, a <tt><b>y</b></tt> position in the room and a <tt><b>string</b></tt> (a group of letters, numbers and symbols). Lets now call this function.  For the x and y argument we will not pass it numbers.  Please note that if you look at the help menu that this function does not return any value (the manual says it returns <tt><b>NA</b></tt>).
+In our case we will be calling a function named **[draw_text](https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FDrawing%2FText%2Fdraw_text.htm&rhsearch=draw_text&rhhlterm=draw_text)**. This takes three arguments.  It takes an **x** position in the room, a **y** position in the room and a **string** (a group of letters, numbers and symbols). Lets now call this function.  For the **x** and **y** argument we will not pass it numbers.  Please note that if you look at the help menu that this function does not return any value (the manual says it returns **NA** - not applicable).
 		
-	<p>
-		We will use the <tt><b>x</b></tt> and <tt><b>y</b></tt>  position of the object in the room.  There are two built in variables in each game object (we will get into more detail on variables later) and this is its x,y position in room space.  So type in <h3>obj_hello_world_text: Draw</h3>
+We will use the **x** and **y**  position of the object in the room.  There are two built in variables in each game object and this is its x,y position in room space.  So type in **obj_hello_world_text: Draw**
 
 ![alt_text](images/.png)
 
