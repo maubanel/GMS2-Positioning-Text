@@ -102,7 +102,7 @@ The above should draw the text "Hello World" (without quotation marks) in the ro
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-I eyeballed the center of the room.  What if I want it to be in the exact center of the room.  How do I go about doing this?  I can *double left click* on the **icon** in the middle of the room which will bring up an **Instance** window of this game object.  I can look at the **Properties | Room Settings | Width & Height** to see the pixel dimensions of the room.  In my case it defaults to `1024` by `768`.  The center would be these two values divided by 2.  So if your instance window does not show **x** as `512` and **y** as `384`, make the change to them in the editor window now so that the object is dead center.
+I eyeballed the center of the room.  What if I want it to be in the exact center of the room.  How do I go about doing this?  I can *double left click* on the **icon** in the middle of the room which will bring up an **Instance** window of this game object.  I can look at the **Properties | Room Settings | Width & Height** to see the pixel dimensions of the room.  In my case it defaults to `1366` by `768`.  The center would be these two values divided by 2.  So if your instance window does not show **x** as `683` and **y** as `384`, make the change to them in the editor window now so that the object is dead center.
 
 ![center object in room](images/CenterOfRoom.png)
 
